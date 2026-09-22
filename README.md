@@ -1,22 +1,23 @@
 ## Yuri (Iurii) Tiutvin
 
-Electrical engineering senior at UC Davis, graduating June 2027, based in San Jose.
-I build embedded instruments and measure whether they actually work — every project below publishes its methods and its numbers.
+Electrical engineering senior at UC Davis, graduating June 2027 and based in San Jose, looking for full-time roles in embedded systems, firmware, hardware and test engineering.
 
-📄 [Portfolio site](https://yuritiutvin.github.io) &nbsp;·&nbsp; ✉️ [itiutvin@gmail.com](mailto:itiutvin@gmail.com)
+The projects below were designed, built and tested outside of coursework. Each repository carries the schematics, source code, design decisions and bench measurements behind it.
+
+[Portfolio site](https://yuritiutvin.github.io) · [itiutvin@gmail.com](mailto:itiutvin@gmail.com)
 
 ---
 
 ### Projects
 
-**[Reaction Time Game](https://github.com/YuriTiutvin/reaction-time-game)** — five-light reaction timer on an RP2040, with a discrete 74HC00 SR latch debouncing the button in hardware and a LiPo charging and power-path subsystem.
-Median 202 ms over 30 rounds; timer checked against an oscilloscope and found to read +6.4 ms high.
-`MicroPython` `Interrupt timing` `Discrete logic` `LiPo power` `Bench measurement`
+**[Reaction Time Game](https://github.com/YuriTiutvin/reaction-time-game)** — a handheld reaction timer for Formula 1 fans. It runs the same five-light start sequence used at an F1 race start and measures reaction time in milliseconds. Built around a Raspberry Pi Pico microcontroller, with its own rechargeable battery, charger and a hardware switch-debounce circuit.
+Timer verified against an oscilloscope: every reading within 10 ms across 10 test rounds.
+`Embedded systems` `Firmware` `Circuit design` `Raspberry Pi Pico (RP2040)` `MicroPython` `Digital logic` `Battery power` `Prototyping & soldering` `Test & measurement` `Oscilloscope`
 
 <!-- PROJECT TEMPLATE — copy, paste above this comment, replace the capitalised parts.
 
-**[PROJECT NAME](REPO_URL)** — ONE SENTENCE ON WHAT IT IS AND WHAT MAKES IT INTERESTING.
-HEADLINE MEASURED RESULT, WITH THE CONDITION IT WAS MEASURED UNDER.
-`SKILL` `SKILL` `SKILL` `SKILL` `SKILL`
+**[PROJECT NAME](REPO_URL)** — WHO IT IS FOR AND WHAT IT DOES, IN PLAIN LANGUAGE. ONE SENTENCE NAMING THE KEY HARDWARE WITH A PLAIN GLOSS.
+HEADLINE RESULT, SAYING HOW IT WAS MEASURED AND OVER HOW MANY TRIALS.
+THE PROJECT'S CANONICAL TAG LIST, 8 TO 10 TERMS, IDENTICAL TO THE SITE CARD
 
 -->
