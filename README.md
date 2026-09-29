@@ -1,6 +1,6 @@
 ## Yuri (Iurii) Tiutvin
 
-Electrical engineering senior at UC Davis, graduating June 2027 and based in San Jose, looking for full-time roles in embedded systems, firmware, hardware and test engineering.
+Electrical engineering senior at UC Davis, graduating June 2027 and based in San Jose. I'm looking for full-time roles in embedded systems, analog hardware, and validation/test engineering, and I'm open to part-time or co-op work during the school year.
 
 The projects below were designed, built and tested outside of coursework, spanning embedded firmware and digital signal processing. Each repository carries the schematics, source code, design decisions and bench measurements behind it.
 
